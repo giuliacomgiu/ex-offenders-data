@@ -5,6 +5,10 @@ Python 4 Everybody fifth module: Capstone.
 All data is available at https://www.tdcj.texas.gov/death_row/dr_executed_offenders.html
 (Should it be public, though?)
 
+Remember: they were real people, 
+in spite of whatever crimes they may
+or may not have commited. Respect, always.
+
 ## crawler.py
 crawler.py is a webscrapper that checks
 tdcj's robot.txt file before scrapping.
