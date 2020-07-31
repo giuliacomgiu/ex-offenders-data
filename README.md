@@ -22,6 +22,7 @@ It counts how many:
 - people are of a certain race
 - times X grade was the highest grade in school
 - people were of a certain gender
+
 TO DO: not differentiate yall from y'all
 
 ## calculator.py
