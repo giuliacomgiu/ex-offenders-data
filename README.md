@@ -35,4 +35,14 @@ worddump.py finds top n most used
 words, and searches the database for
 a specific word.
 TO DO: more complex NLP analysis, 
-such as creating a lemma
+such as creating a lemma, selecting
+nound, adjectives, adverbs, verbs,
+normalizing with an english corpus.
+
+## gword.py
+gword.py was written by the staff of
+Michigan University for another project,
+but I tweaked it a little.
+It counts words, generates a .js file,
+which, in turn, is used in a .htm file 
+to create a Word Cloud on the browser.
