@@ -16,8 +16,10 @@ or may not have commited. Respect.
 
 import sqlite3
 
+
 print('LAST STATEMENTS\' DUMP FOR TEXAS\' EXECUTED OFFENDERS.')
 
+# Attempting to connect to database
 con = False
 while con == False:
 	try:
@@ -38,6 +40,7 @@ while con == False:
 		print('Couldnt connect to database\n\n')
 		pass
 
+# Prompt user for option and execute
 while True:
 	try:
 		opt = input('''\nType in the option you want:
@@ -54,6 +57,7 @@ while True:
 		print('Invalid input format. Digits only.')
 		continue
 	
+	# N most used words
 	try:
 		if opt == 1:
 			
@@ -74,6 +78,7 @@ while True:
 				raise ValueError('Ivalid input format. Digits only.')
 				continue
 
+		# Search database for specific word
 		elif opt == 2:
 			valid = False
 			word = input('Type in the desired word: ').lower().strip()
@@ -95,11 +100,14 @@ while True:
 			else: raise ValueError('Invalid format. Characters or digits only.')
 
 		else: raise KeyboardInterrupt
+	
 	except KeyboardInterrupt:
 		print('Bye bye!')
 		quit()
+	
 	except ValueError as err:
 		print(err)
 		pass
+	
 	except:
 		pass
