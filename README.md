@@ -9,6 +9,8 @@ Remember: they were real people,
 in spite of whatever crimes they may
 or may not have commited. Respect, always.
 
+# Python
+
 ## crawler.py
 crawler.py is a webscrapper that checks
 tdcj's robot.txt file before scrapping.
@@ -47,3 +49,8 @@ but I tweaked it a little.
 It counts words, generates a .js file,
 which, in turn, is used in a .htm file 
 to create a Word Cloud on the browser.
+
+# JavaScript and HTML
+These scripts were developed by the 
+Michigan University's staff, and were not
+modified by me.
